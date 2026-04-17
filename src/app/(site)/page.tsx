@@ -1,119 +1,80 @@
 import Link from "next/link";
-
-const work = [
-  {
-    title: "Zigtex",
-    description: "Outbound automation platform with AI-assisted workflows",
-    highlights: ["0→1 product build", "10k+ emails/day/org", "Safety systems (RBAC, idempotency, auto-stops)"],
-  },
-  {
-    title: "GyanGrove",
-    description: "AI-powered school management platform",
-    highlights: ["12-module platform", "70% engagement increase", "60%+ operations automated"],
-  },
-  {
-    title: "Atlassian (Jira)",
-    description: "Performance optimization and system efficiency",
-    highlights: ["20% TTI improvement", "18% faster page load", "Observability improvements"],
-  },
-  {
-    title: "Visa",
-    description: "Large-scale platform and internal systems",
-    highlights: ["CI/CD pipeline system", "Rules engine (Node.js)", "800+ screen system migration"],
-  },
-];
-
-const metrics = [
-  { value: "10k+", label: "automated actions/day" },
-  { value: "70%", label: "efficiency gains" },
-  { value: "1000+", label: "active users" },
-  { value: "65%", label: "operational time reduction" },
-];
+import Card from "@/components/Card";
+import Metric from "@/components/Metric";
+import PageShell from "@/components/PageShell";
+import { defaultFooterLinks, homeMetrics, homeWorkCards } from "@/lib/site-content";
 
 export default function Home() {
   return (
-    <section className="pt-24 pb-32 max-w-3xl">
-      <h1 className="max-w-2xl text-5xl font-bold tracking-tight leading-tight text-zinc-900 dark:text-zinc-100">
-        Building AI-assisted products that scale without breaking trust
-      </h1>
-      <p className="mt-10 max-w-xl text-base text-zinc-600 leading-relaxed dark:text-zinc-300">
-        Product leader with 9+ years experience across 0→1 and scale systems,
-        combining deterministic systems with applied AI.
-      </p>
-      <p className="mt-6 max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
-        Focused on building systems that behave well under real-world pressure.
-      </p>
+    <PageShell railLabel="00 / INDEX" railHeightClass="flex-1" footerLinks={defaultFooterLinks}>
+      <div className="flex flex-col gap-[30px]">
+        <div className="animate-fade-up motion-delay-0 flex flex-col gap-4">
+          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">
+            00 / HOME / AI SYSTEMS
+          </p>
+          <h1 className="font-display whitespace-pre-line text-[44px] font-bold leading-[1.05] tracking-[-0.01em] text-[#111111] md:text-[64px] md:leading-[1.1]">
+            {"Building AI-assisted\nproducts that scale\nwithout breaking trust"}
+          </h1>
+          <p className="max-w-[640px] text-[16px] leading-[1.65] text-[#111827]">
+            Product leader with 9+ years across 0→1 and scale systems
+          </p>
+          <p className="max-w-[640px] text-[16px] leading-[1.65] text-[#111827]">
+            Focused on building systems that behave well under real-world pressure.
+          </p>
+          <Link href="/work" className="link-slide font-display text-[20px] font-bold leading-[1.4] text-[#1D4ED8] transition-colors duration-150">
+            Explore my work →
+          </Link>
+          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">
+            {"// built for reliability under failure"}
+          </p>
+          <div className="h-px w-[128px] bg-[#D1D5DB]" />
+        </div>
 
-      <div className="mt-20 flex flex-wrap gap-x-14 gap-y-10">
-        {metrics.map(({ value, label }) => (
-          <div key={label} className="min-w-[140px]">
-            <p className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">{value}</p>
-            <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{label}</p>
-          </div>
-        ))}
-      </div>
-
-      <Link
-        href="/work"
-        className="mt-14 inline-block text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100 transition-colors"
-      >
-        Explore my work →
-      </Link>
-
-      <div className="mt-24">
-        <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Selected Work</h2>
-        <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-          A few products and systems I&apos;ve built across 0→1 and scale.
-        </p>
-
-        <div className="mt-12 flex flex-col divide-y divide-zinc-100">
-          {work.map(({ title, description, highlights }, i) => (
-            <Link
-              key={title}
-              href="#"
-              className="group cursor-pointer"
-            >
-              {i === 0 ? (
-                <div className="py-12">
-                  <p className="mb-4 text-xs uppercase tracking-[0.16em] text-gray-500 dark:text-gray-400">
-                    FEATURED PROJECT
-                  </p>
-                  <p className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:underline underline-offset-4 decoration-zinc-400">
-                    {title}
-                  </p>
-                  <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">{description}</p>
-                  <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
-                    Built from scratch to handle high-scale outbound automation with safety-first design.
-                  </p>
-                  <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-600 dark:text-gray-400">
-                    {highlights.map((highlight, index) => (
-                      <li key={highlight}>
-                        {index > 0 ? "• " : ""}
-                        {highlight}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : (
-                <div className="py-9">
-                  <p className="text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:underline underline-offset-4 decoration-zinc-400">
-                    {title}
-                  </p>
-                  <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">{description}</p>
-                  <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-600 dark:text-gray-400">
-                    {highlights.map((highlight, index) => (
-                      <li key={highlight}>
-                        {index > 0 ? "• " : ""}
-                        {highlight}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </Link>
+        <div className="animate-fade-up motion-delay-75 grid w-full max-w-[736px] grid-cols-2 gap-x-8 gap-y-8 md:grid-cols-4">
+          {homeMetrics.map((metric) => (
+            <Metric key={metric.label} value={metric.value} label={metric.label} />
           ))}
         </div>
+
+        <div className="animate-fade-up motion-delay-150 flex flex-col gap-4">
+          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">01 / WORK</p>
+          <div className="flex flex-col gap-[34px]">
+            {homeWorkCards.map((card) =>
+              card.type === "featured" ? (
+                <Card key={card.title} background={card.background} border={card.border} widthClass="md:ml-[8px] md:w-[640px]" paddingClass="p-[22px]">
+                  <div className="flex gap-[10px]">
+                    <div className="w-[2px] shrink-0 bg-[#9CA3AF]" />
+                    <div className="flex flex-col gap-3">
+                      <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{card.label}</p>
+                      <p className="font-display text-[20px] font-semibold leading-[1.4] text-[#111111]">{card.title}</p>
+                      <p className="max-w-[588px] text-[18px] leading-[1.65] text-[#111827]">{card.description}</p>
+                      <p className="max-w-[560px] font-meta text-[13px] font-medium leading-[1.5] text-[#6B7280]">{card.meta}</p>
+                      <p className="font-meta text-[13px] font-medium tracking-[0.06em] text-[#6B7280]">{card.annotation}</p>
+                    </div>
+                  </div>
+                </Card>
+              ) : (
+                <Card
+                  key={card.title}
+                  background={card.background}
+                  border={card.border}
+                  widthClass={card.widthClass}
+                  paddingClass="p-[20px] md:p-[19px]"
+                >
+                  <div className="flex gap-[10px]">
+                    <div className="w-[2px] shrink-0 bg-[#D1D5DB]" />
+                    <div className="flex flex-col gap-3">
+                      <p className="font-display text-[20px] font-semibold leading-[1.4] text-[#111111]">{card.title}</p>
+                      <p className="max-w-[568px] text-[18px] leading-[1.65] text-[#111827]">{card.description}</p>
+                      <p className="max-w-[560px] font-meta text-[13px] font-medium leading-[1.5] text-[#6B7280]">{card.meta}</p>
+                    </div>
+                  </div>
+                </Card>
+              ),
+            )}
+          </div>
+        </div>
       </div>
-    </section>
+    </PageShell>
   );
 }
