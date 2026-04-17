@@ -1,68 +1,48 @@
+import Card from "@/components/Card";
+import PageShell from "@/components/PageShell";
+import Reveal from "@/components/Reveal";
+import { defaultFooterLinks, workCases } from "@/lib/site-content";
+
 export default function Work() {
   return (
-    <section className="pt-24 pb-32 max-w-3xl">
-      <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Work</h1>
-      <p className="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-300">
-        Selected systems and products I&apos;ve built.
-      </p>
-
-      <div className="mt-16 flex max-w-2xl flex-col divide-y divide-zinc-100">
-        <div className="py-10">
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Zigtex</h2>
-          <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
-            I led the 0→1 build of an outbound automation platform with AI-assisted workflows.
-            The focus was not just throughput, but stable execution under failure-prone production
-            conditions and real customer variability.
+    <PageShell railLabel="01 / WORK" railHeightClass="h-[1700px]" footerLinks={defaultFooterLinks}>
+      <div className="flex flex-col gap-[38px]">
+        <div className="flex flex-col gap-4">
+          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">01 / WORK</p>
+          <h1 className="font-display whitespace-pre-line text-[44px] font-bold leading-[1.05] tracking-[-0.01em] text-[#111111] md:text-[64px] md:leading-[1.1]">
+            {"Case work shaped by\noperating reality, not\nproduct theatre"}
+          </h1>
+          <p className="max-w-[640px] text-[16px] leading-[1.65] text-[#111827]">
+            Each project is framed around the system constraint, the product mechanism introduced, and the measurable shift in behavior or performance that followed.
           </p>
-          <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-zinc-600 dark:text-zinc-400">
-            <li>10k+ emails/day/org</li>
-            <li>• RBAC and idempotency</li>
-            <li>• Auto-stop safety controls</li>
-          </ul>
+          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{"// systems > features"}</p>
+          <div className="h-px w-[180px] bg-[#E5E7EB]" />
         </div>
 
-        <div className="py-10">
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">GyanGrove</h2>
-          <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
-            I helped shape and ship an AI-powered school management platform spanning operations,
-            communication, and classroom workflows. The product was designed to simplify daily work
-            for admins and educators while preserving control and clarity.
-          </p>
-          <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-zinc-600 dark:text-zinc-400">
-            <li>12-module platform</li>
-            <li>• 70% engagement increase</li>
-            <li>• 60%+ operations automated</li>
-          </ul>
-        </div>
-
-        <div className="py-10">
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Atlassian (Jira)</h2>
-          <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
-            I worked on performance and system efficiency initiatives to improve responsiveness at
-            scale. The effort combined frontend performance tuning, backend coordination, and stronger
-            observability so teams could catch issues earlier.
-          </p>
-          <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-zinc-600 dark:text-zinc-400">
-            <li>20% TTI improvement</li>
-            <li>• 18% faster page load</li>
-            <li>• Better observability</li>
-          </ul>
-        </div>
-
-        <div className="py-10">
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Visa</h2>
-          <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
-            I contributed to large-scale internal platform efforts focused on reliability and migration
-            velocity. The work involved delivery systems, backend business logic, and modernization of
-            legacy UI surfaces without disrupting core operations.
-          </p>
-          <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-zinc-600 dark:text-zinc-400">
-            <li>CI/CD pipeline system</li>
-            <li>• Node.js rules engine</li>
-            <li>• 800+ screen migration</li>
-          </ul>
+        <div className="flex flex-col gap-[38px]">
+          {workCases.map((item, index) => (
+            <Reveal key={item.title} delay={index * 75}>
+            <Card
+              key={item.title}
+              background={item.background}
+              border={item.border}
+              widthClass={index === 0 ? "md:w-[640px]" : "md:w-[620px]"}
+              paddingClass="p-6"
+            >
+              <div className={item.gapClass}>
+                <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{item.label}</p>
+                <p className="font-display text-[20px] font-semibold leading-[1.4] text-[#111111]">{item.title}</p>
+                <p className="max-w-[640px] text-[18px] leading-[1.65] text-[#111827]">{item.description}</p>
+                <p className="max-w-[580px] font-meta text-[13px] font-medium leading-[1.5] text-[#6B7280]">{item.meta}</p>
+                {item.annotation ? (
+                  <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{item.annotation}</p>
+                ) : null}
+              </div>
+            </Card>
+            </Reveal>
+          ))}
         </div>
       </div>
-    </section>
+    </PageShell>
   );
 }
