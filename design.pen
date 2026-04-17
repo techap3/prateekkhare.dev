@@ -1,0 +1,2920 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Design System",
+      "clip": true,
+      "width": 1440,
+      "height": 1900,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        64,
+        72
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "gxEKO",
+          "name": "label",
+          "fill": "#6B7280",
+          "content": "PERSONAL PORTFOLIO SYSTEM",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 13,
+          "fontWeight": "500",
+          "letterSpacing": 1.2
+        },
+        {
+          "type": "text",
+          "id": "QImxz",
+          "name": "title",
+          "fill": "#111111",
+          "textGrowth": "fixed-width",
+          "width": 980,
+          "content": "Editorial system for an authored product leader thinking space",
+          "lineHeight": 0.98,
+          "fontFamily": "Geist",
+          "fontSize": 64,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "VtYd3",
+          "name": "intro",
+          "fill": "#111827",
+          "textGrowth": "fixed-width",
+          "width": 760,
+          "content": "Strict grayscale, high contrast typography, deliberate spacing, and small system-like cues make the interface feel authored rather than templated.",
+          "lineHeight": 1.65,
+          "fontFamily": "Newsreader",
+          "fontSize": 18
+        },
+        {
+          "type": "rectangle",
+          "id": "NAkYX",
+          "name": "rule1",
+          "fill": "#E5E7EB",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "bZKgM",
+          "name": "typeSec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "Yb1lE",
+              "name": "typeLabel",
+              "fill": "#6B7280",
+              "content": "TYPOGRAPHY",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 1.2
+            },
+            {
+              "type": "text",
+              "id": "EHw8X",
+              "name": "display",
+              "fill": "#111111",
+              "textGrowth": "fixed-width",
+              "width": 920,
+              "content": "Hero headlines use Geist at 76px, bold, tight line height, and a narrow measure to create authority without theatrics.",
+              "lineHeight": 1,
+              "fontFamily": "Geist",
+              "fontSize": 64,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "u018k",
+              "name": "sectionTxt",
+              "fill": "#111827",
+              "textGrowth": "fixed-width",
+              "width": 820,
+              "content": "Section labels stay compact and uppercase in IBM Plex Mono. Body copy uses Newsreader with generous line height and comfortable reading width.",
+              "lineHeight": 1.65,
+              "fontFamily": "Newsreader",
+              "fontSize": 18
+            },
+            {
+              "type": "text",
+              "id": "nnfVN",
+              "name": "metaTxt",
+              "fill": "#6B7280",
+              "content": "Meta / IBM Plex Mono / 13px / subtle utility and navigation only",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 0.048
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Q6S6D",
+          "name": "rule2",
+          "fill": "#E5E7EB",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "JA5ze",
+          "name": "colorSec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "YOBLC",
+              "name": "colorLabel",
+              "fill": "#6B7280",
+              "content": "COLOR + CONTRAST",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 1.2
+            },
+            {
+              "type": "frame",
+              "id": "j79w4",
+              "name": "colorRow",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "T3Vnn",
+                  "name": "swatch1",
+                  "width": 300,
+                  "height": 160,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "padding": 20,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8dGU3",
+                      "name": "swatch1txt",
+                      "fill": "#FFFFFF",
+                      "content": "Primary / #111111",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DeyLx",
+                  "name": "swatch2",
+                  "width": 300,
+                  "height": 160,
+                  "fill": "#6B7280",
+                  "layout": "vertical",
+                  "padding": 20,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "72ZXE",
+                      "name": "swatch2txt",
+                      "fill": "#FFFFFF",
+                      "content": "Secondary / #6B7280",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YKsTd",
+                  "name": "swatch3",
+                  "width": 300,
+                  "height": 160,
+                  "fill": "#E5E7EB",
+                  "layout": "vertical",
+                  "padding": 20,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VaNgf",
+                      "name": "swatch3txt",
+                      "fill": "#6B7280",
+                      "content": "Border / #E5E7EB",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZAeTw",
+                  "name": "swatch4",
+                  "width": 300,
+                  "height": 160,
+                  "fill": "#F9FAFB",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D8D8D8"
+                  },
+                  "layout": "vertical",
+                  "padding": 20,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6dQ83",
+                      "name": "swatch4txt",
+                      "fill": "#6B7280",
+                      "content": "Surface / #F9FAFB",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "9HoYI",
+              "name": "accentNote",
+              "fill": "#6B7280",
+              "content": "Accent / muted indigo / links, annotations, CTA, and signature emphasis only",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 0.048
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "NAUH1",
+          "name": "rule3",
+          "fill": "#E5E7EB",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "4DSIb",
+          "name": "spaceSec",
+          "fill": "#111827",
+          "textGrowth": "fixed-width",
+          "width": 640,
+          "content": "Spacing rhythm: 24px for local grouping, 40px for content clusters, 64px for section intros, and 96px+ between major narrative blocks. Interaction: hover states rely on underline, subtle text darkening, and cursor expectation only. No motion beyond micro-feedback.",
+          "lineHeight": 1.65,
+          "fontFamily": "Newsreader",
+          "fontSize": 18
+        },
+        {
+          "type": "frame",
+          "id": "Wo07B",
+          "name": "auth",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "children": [
+            {
+              "type": "text",
+              "id": "eZBuh",
+              "name": "authLabel",
+              "fill": "#6B7280",
+              "content": "AUTHORED SIGNALS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 0.048
+            },
+            {
+              "type": "text",
+              "id": "OG6U0",
+              "name": "authText",
+              "fill": "#111827",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Section labels use numbered mono notation. Annotations and link surfaces use a rare muted accent. Signature emphasis appears as a thin accent rule or left border no more than twice per page.",
+              "lineHeight": 1.65,
+              "fontFamily": "Newsreader",
+              "fontSize": 18
+            },
+            {
+              "type": "text",
+              "id": "qZHn8",
+              "name": "authMeta",
+              "fill": "#6B7280",
+              "content": "01 / WORK   02 / WRITING   03 / ABOUT   // systems > features",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 0.048
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ceax0",
+      "x": 1540,
+      "y": 0,
+      "name": "Home",
+      "width": 1440,
+      "height": 1860,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        24,
+        64,
+        40,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "zWtKP",
+          "name": "nav",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qWZGv",
+              "name": "brand",
+              "fill": "$color-text-primary",
+              "content": "Prateek Khare",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "qTTnK",
+              "name": "links",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uPce3",
+                  "name": "homeLink",
+                  "fill": "#6B7280",
+                  "content": "Home",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "HFex4",
+                  "name": "workLink",
+                  "fill": "#6B7280",
+                  "content": "Work",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "1bOyH",
+                  "name": "blogLink",
+                  "fill": "#6B7280",
+                  "content": "Blog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "pq57C",
+                  "name": "aboutLink",
+                  "fill": "#6B7280",
+                  "content": "About",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1afXZ",
+          "name": "homeShell",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "T2En2",
+              "name": "homeRail",
+              "width": 120,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AN9yo",
+                  "name": "homeMark",
+                  "fill": "#6B7280",
+                  "content": "00 / INDEX",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "rectangle",
+                  "id": "KQLxt",
+                  "name": "homeLine",
+                  "fill": "#4B5563",
+                  "width": 2,
+                  "height": 1660
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YC5cW",
+              "name": "main",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 38,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6rNb0",
+                  "name": "hero",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "laiIL",
+                      "name": "kicker",
+                      "fill": "#6B7280",
+                      "content": "00 / HOME / AI SYSTEMS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "r8AX8",
+                      "name": "headline",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "Building AI-assisted\nproducts that scale\nwithout breaking trust",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Geist",
+                      "fontSize": 64,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.01
+                    },
+                    {
+                      "type": "text",
+                      "id": "k7t9H",
+                      "name": "sub",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "Product leader with 9+ years across 0→1 and scale systems",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "b8Vbr",
+                      "name": "identity",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "Focused on building systems that behave well under real-world pressure.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yzj41",
+                      "name": "cta",
+                      "fill": "$color-accent",
+                      "content": "Explore my work →",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qRsc0",
+                      "name": "heroAnn",
+                      "fill": "#6B7280",
+                      "content": "// built for reliability under failure",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Ho9uL",
+                      "name": "heroSig",
+                      "fill": "#D1D5DB",
+                      "width": 640,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d3nSF",
+                  "name": "metrics",
+                  "width": 720,
+                  "gap": 44,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M7uof",
+                      "name": "m2",
+                      "width": 156,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "apnGG",
+                          "fill": "#9CA3AF",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "AQh9B",
+                          "fill": "#111111",
+                          "content": "10k+",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Geist",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0p9tp",
+                          "fill": "#6B7280",
+                          "content": "automated actions/day",
+                          "lineHeight": 1.4,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pnMxb",
+                      "name": "m3",
+                      "width": 156,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "4ilS2",
+                          "fill": "#9CA3AF",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Aw7TX",
+                          "fill": "#111111",
+                          "content": "70%",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Geist",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a7l0J",
+                          "fill": "#6B7280",
+                          "content": "efficiency gains",
+                          "lineHeight": 1.4,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Jvrez",
+                      "name": "m4",
+                      "width": 156,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "nCdv5",
+                          "fill": "#9CA3AF",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "65NUz",
+                          "fill": "#111111",
+                          "content": "1000+",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Geist",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MsyOg",
+                          "fill": "#6B7280",
+                          "content": "users",
+                          "lineHeight": 1.4,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t9tKK",
+                      "name": "m5",
+                      "width": 156,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "hadhV",
+                          "fill": "#9CA3AF",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "3o78F",
+                          "fill": "#111111",
+                          "content": "65%",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Geist",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "9Vrfy",
+                          "fill": "#6B7280",
+                          "content": "operational improvement",
+                          "lineHeight": 1.4,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZpG8o",
+                  "name": "workSec",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "saAov",
+                      "name": "workLabel",
+                      "fill": "#6B7280",
+                      "content": "01 / WORK",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ldw4f",
+                      "name": "workList",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 34,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WosN2",
+                          "name": "c1",
+                          "width": 640,
+                          "fill": "#F4F7FB",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#C3CFDE"
+                          },
+                          "gap": 10,
+                          "padding": 22,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "8VZah",
+                              "fill": "#9CA3AF",
+                              "width": 2,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "5bnWG",
+                              "width": 588,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "l3P9L",
+                                  "fill": "#6B7280",
+                                  "content": "FEATURED / SYSTEM",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.048
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "SzhsW",
+                                  "fill": "#111111",
+                                  "content": "Zigtex",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Geist",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LYxOe",
+                                  "fill": "#111827",
+                                  "textGrowth": "fixed-width",
+                                  "width": 588,
+                                  "content": "Designed the operating model and AI-assisted workflow layer for a high-volume field operations system where speed could not come at the cost of reliability.",
+                                  "lineHeight": 1.65,
+                                  "fontFamily": "Newsreader",
+                                  "fontSize": 18,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LtOXJ",
+                                  "fill": "#6B7280",
+                                  "textGrowth": "fixed-width",
+                                  "width": 560,
+                                  "content": "10k+ actions/day · 70% efficiency gains · 1000+ users · trust-first automation",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bNEgV",
+                                  "fill": "#6B7280",
+                                  "content": "// not a demo system",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 0.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0QboF",
+                          "name": "c2",
+                          "width": 620,
+                          "fill": "#FCFDFE",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E3E8F0"
+                          },
+                          "gap": 10,
+                          "padding": 19,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "nk0SK",
+                              "fill": "#D1D5DB",
+                              "width": 2,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JHw12",
+                              "width": 568,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "brLbh",
+                                  "fill": "#111111",
+                                  "content": "OpsGraph",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Geist",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "18OIk",
+                                  "fill": "#111827",
+                                  "textGrowth": "fixed-width",
+                                  "width": 568,
+                                  "content": "Built a systems view for operational bottlenecks so teams could prioritize interventions by flow health instead of anecdote.",
+                                  "lineHeight": 1.65,
+                                  "fontFamily": "Newsreader",
+                                  "fontSize": 18,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wKJvV",
+                                  "fill": "#6B7280",
+                                  "textGrowth": "fixed-width",
+                                  "width": 560,
+                                  "content": "decision instrumentation · service workflow redesign · cross-functional operating cadence",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ylx8e",
+                          "name": "c3",
+                          "width": 620,
+                          "fill": "#FAFBFD",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E3E8F0"
+                          },
+                          "gap": 10,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "zDSlF",
+                              "fill": "#D1D5DB",
+                              "width": 2,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Jp69v",
+                              "width": 568,
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dCB3F",
+                                  "fill": "#111111",
+                                  "content": "Trust Console",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Geist",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aH1tG",
+                                  "fill": "#111827",
+                                  "textGrowth": "fixed-width",
+                                  "width": 568,
+                                  "content": "Created the governance and review layer for AI-driven actions, making confidence, overrides, and failure states visible to operators and leadership.",
+                                  "lineHeight": 1.65,
+                                  "fontFamily": "Newsreader",
+                                  "fontSize": 18,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "p8c9W",
+                                  "fill": "#6B7280",
+                                  "textGrowth": "fixed-width",
+                                  "width": 560,
+                                  "content": "human override paths · confidence thresholds · safer scale",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GzZ0r",
+                  "name": "footer",
+                  "width": "fill_container",
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MMg9k",
+                      "name": "footName",
+                      "fill": "$color-text-primary",
+                      "content": "Prateek Khare",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9fDhw",
+                      "name": "footLinks",
+                      "fill": "$color-accent",
+                      "content": "LinkedIn -> Email -> Blog",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cZs06",
+      "x": 3080,
+      "y": 0,
+      "name": "Work",
+      "width": 1440,
+      "height": 1860,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        24,
+        64,
+        40,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "F7sVt",
+          "name": "nav",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q1kwS",
+              "name": "brand",
+              "fill": "$color-text-primary",
+              "content": "Prateek Khare",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "c5FBE",
+              "name": "links",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9zwul",
+                  "name": "homeLink",
+                  "fill": "#6B7280",
+                  "content": "Home",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "9TllL",
+                  "name": "workLink",
+                  "fill": "#6B7280",
+                  "content": "Work",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "nVYGn",
+                  "name": "blogLink",
+                  "fill": "#6B7280",
+                  "content": "Blog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "Ib5t1",
+                  "name": "aboutLink",
+                  "fill": "#6B7280",
+                  "content": "About",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eSTl3",
+          "name": "workShell",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "imYpT",
+              "name": "workRail",
+              "width": 120,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JLnPB",
+                  "name": "workMark",
+                  "fill": "#6B7280",
+                  "content": "01 / WORK",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "rectangle",
+                  "id": "hkYku",
+                  "name": "workLine",
+                  "fill": "#4B5563",
+                  "width": 2,
+                  "height": 1700
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b7LKm",
+              "name": "main",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 38,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZGuuD",
+                  "name": "intro",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jrwyK",
+                      "name": "label",
+                      "fill": "#6B7280",
+                      "content": "01 / WORK",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "I0aBw",
+                      "name": "title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "Case work shaped by\noperating reality, not\nproduct theatre",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Geist",
+                      "fontSize": 64,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.01
+                    },
+                    {
+                      "type": "text",
+                      "id": "qlYHH",
+                      "name": "sub",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "Each project is framed around the system constraint, the product mechanism introduced, and the measurable shift in behavior or performance that followed.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "uGwpA",
+                      "name": "introAnn",
+                      "fill": "#6B7280",
+                      "content": "// systems > features",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ltTtB",
+                      "name": "introSig",
+                      "fill": "#E5E7EB",
+                      "width": 180,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QMDJW",
+                  "name": "cases",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 38,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LyNn7",
+                      "name": "case1",
+                      "width": 640,
+                      "fill": "#F4F6F8",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D1D5DB"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FEZ4g",
+                          "name": "c1label",
+                          "fill": "#6B7280",
+                          "content": "system · workflow · automation",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "5QqHe",
+                          "name": "c1t",
+                          "fill": "#111111",
+                          "content": "Zigtex",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k6PFq",
+                          "name": "c1d",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "The problem was volume without coordination: operators were moving fast, but decisions fragmented under pressure. I led the product and systems design of an AI-assisted workflow layer that standardized actions, exposed edge cases, and made exception handling legible. The result was a daily operating system that processed 10k+ automated actions, improved efficiency by 70%, and kept trust intact as the workflow scaled.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 18
+                        },
+                        {
+                          "type": "text",
+                          "id": "BRBKj",
+                          "name": "c1m",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "scale / reliability / automation",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mKDCC",
+                      "name": "case2",
+                      "width": 620,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#F3F4F6"
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pnPpK",
+                          "name": "c2label",
+                          "fill": "#6B7280",
+                          "content": "workflow · instrumentation · operations",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "Idpau",
+                          "name": "c2t",
+                          "fill": "#111111",
+                          "content": "OpsGraph",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TmYWs",
+                          "name": "c2d",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "Teams were reacting to isolated incidents instead of managing the system that produced them. I shaped a product layer that connected demand patterns, handoff delays, and operational interventions into one shared view, giving engineering and operations a common language for prioritization. That system shifted reviews from reactive debugging to deliberate flow design, materially improving response quality and operational focus.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 18
+                        },
+                        {
+                          "type": "text",
+                          "id": "nxjzY",
+                          "name": "c2m",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "diagnosis / planning / service flow",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "JnTIz",
+                          "name": "c2ann",
+                          "fill": "#6B7280",
+                          "content": "// built to expose the system, not decorate it",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7ICvB",
+                      "name": "case3",
+                      "width": 620,
+                      "fill": "#FAFBFC",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#F3F4F6"
+                      },
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZpzXP",
+                          "name": "c3label",
+                          "fill": "#6B7280",
+                          "content": "platform · governance · trust",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "awu6c",
+                          "name": "c3t",
+                          "fill": "#111111",
+                          "content": "Trust Console",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CGdg0",
+                          "name": "c3d",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "As AI actions grew more powerful, the real challenge was not generation but governance. I drove the design of a review and control layer that surfaced confidence, override paths, and failure modes in ways operators could act on quickly. The system reduced ambiguity around automation, improved operational confidence, and gave leadership a defensible model for scaling AI without hiding risk.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 18
+                        },
+                        {
+                          "type": "text",
+                          "id": "zxfAp",
+                          "name": "c3m",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "trust / override / auditability",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "pKCWO",
+                          "name": "c3ann",
+                          "fill": "#6B7280",
+                          "content": "// reliability includes visible escape hatches",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zsTiz",
+                  "name": "footer",
+                  "width": "fill_container",
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XOyLs",
+                      "name": "footName",
+                      "fill": "$color-text-primary",
+                      "content": "Prateek Khare",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0iNQF",
+                      "name": "footLinks",
+                      "fill": "$color-accent",
+                      "content": "LinkedIn -> Email -> Blog",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9f5Qv",
+      "x": 4620,
+      "y": 0,
+      "name": "Blog",
+      "width": 1440,
+      "height": 1700,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        24,
+        64,
+        40,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "p2jSM",
+          "name": "nav",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tZQ5K",
+              "name": "brand",
+              "fill": "$color-text-primary",
+              "content": "Prateek Khare",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "mUqZz",
+              "name": "links",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "StPNx",
+                  "name": "homeLink",
+                  "fill": "#6B7280",
+                  "content": "Home",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "L35YR",
+                  "name": "workLink",
+                  "fill": "#6B7280",
+                  "content": "Work",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "GZLXq",
+                  "name": "blogLink",
+                  "fill": "#6B7280",
+                  "content": "Blog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "v6wX6",
+                  "name": "aboutLink",
+                  "fill": "#6B7280",
+                  "content": "About",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "viVw0",
+          "name": "blogShell",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "LG6Z0",
+              "name": "blogRail",
+              "width": 120,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T9XGd",
+                  "name": "blogMark",
+                  "fill": "#6B7280",
+                  "content": "02 / WRITING",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "rectangle",
+                  "id": "svmXY",
+                  "name": "blogLine",
+                  "fill": "#4B5563",
+                  "width": 2,
+                  "height": 1500
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2SIv5",
+              "name": "main",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "blPwL",
+                  "name": "intro",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2SgTr",
+                      "name": "label",
+                      "fill": "#6B7280",
+                      "content": "02 / WRITING",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "YI4gX",
+                      "name": "noteLabel",
+                      "fill": "#6B7280",
+                      "content": "NOTE / AI SYSTEMS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "hki6H",
+                      "name": "title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "Notes on AI systems,\noperating design, and\nproduct judgment",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Geist",
+                      "fontSize": 64,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.01
+                    },
+                    {
+                      "type": "text",
+                      "id": "qRFiY",
+                      "name": "sub",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "Writing that sits closer to product memos than marketing content: concise, opinionated, and grounded in real operating constraints.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "iP09F",
+                      "name": "blogAnn",
+                      "fill": "#6B7280",
+                      "content": "// systems > features",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Dofkw",
+                      "name": "blogSig",
+                      "fill": "#E5E7EB",
+                      "width": 180,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UKoVD",
+                  "name": "list",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 56,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "8jSP9",
+                      "name": "post1",
+                      "width": 632,
+                      "fill": "#F7F8FA",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9DEE4"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        24,
+                        24,
+                        28,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZDCTn",
+                          "name": "p1d",
+                          "fill": "#6B7280",
+                          "content": "17 Apr 2026",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.06
+                        },
+                        {
+                          "type": "text",
+                          "id": "OiHCg",
+                          "name": "p1t",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Designing AI systems people can actually trust",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yBJ3j",
+                          "name": "p1x",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "Why reliability is a product design problem, not just a model quality problem, once automation reaches operational workflows.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "JiCjt",
+                          "name": "post1Ann",
+                          "fill": "#6B7280",
+                          "content": "// reliability is designed outside the model",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Lx2Oy",
+                      "name": "post2",
+                      "width": 620,
+                      "layout": "vertical",
+                      "gap": 11,
+                      "padding": [
+                        0,
+                        0,
+                        22,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Jtng5",
+                          "name": "p2d",
+                          "fill": "#6B7280",
+                          "content": "02 Feb 2026",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "vt37g",
+                          "name": "p2t",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The product leader's job in a system with too many handoffs",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BwuaL",
+                          "name": "p2x",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "On reducing coordination cost by changing the operating model before adding more process or more tooling.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "Wd4oI",
+                          "name": "post2Ann",
+                          "fill": "#6B7280",
+                          "content": "// handoffs are where systems reveal themselves",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4Pdez",
+                      "name": "post3",
+                      "width": 620,
+                      "layout": "vertical",
+                      "gap": 13,
+                      "padding": [
+                        0,
+                        0,
+                        24,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5oSj3",
+                          "name": "p3d",
+                          "fill": "#6B7280",
+                          "content": "08 Nov 2025",
+                          "lineHeight": 1.5,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.048
+                        },
+                        {
+                          "type": "text",
+                          "id": "ozm0D",
+                          "name": "p3t",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Metrics are useful until they replace judgment",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8mbcj",
+                          "name": "p3x",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 640,
+                          "content": "A short note on knowing when a dashboard clarifies the system and when it merely narrows what the team is willing to see.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "afQ6i",
+                  "name": "footer",
+                  "width": "fill_container",
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "35nBb",
+                      "name": "blogFootName",
+                      "fill": "$color-text-primary",
+                      "content": "Prateek Khare",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ChoiX",
+                      "name": "blogFootLinks",
+                      "fill": "$color-accent",
+                      "content": "LinkedIn -> Email -> Blog",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "IlgEi",
+      "x": 6160,
+      "y": 0,
+      "name": "Article",
+      "width": 1440,
+      "height": 2400,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        24,
+        64,
+        40,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "DifRR",
+          "name": "nav",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cXGAV",
+              "name": "brand",
+              "fill": "$color-text-primary",
+              "content": "Prateek Khare",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Sg0d6",
+              "name": "links",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HRpPO",
+                  "name": "homeLink",
+                  "fill": "#6B7280",
+                  "content": "Home",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "hJINp",
+                  "name": "workLink",
+                  "fill": "#6B7280",
+                  "content": "Work",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "lQCfY",
+                  "name": "blogLink",
+                  "fill": "$color-text-secondary",
+                  "content": "Blog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "yIJAK",
+                  "name": "aboutLink",
+                  "fill": "$color-text-secondary",
+                  "content": "About",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PsWTp",
+          "name": "articleShell",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "D5tc1",
+              "name": "articleRail",
+              "width": 120,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cimsb",
+                  "name": "articleMark",
+                  "fill": "#6B7280",
+                  "content": "02 / NOTE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "rectangle",
+                  "id": "BV1AK",
+                  "name": "articleLine",
+                  "fill": "#4B5563",
+                  "width": 2,
+                  "height": 1860
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ixu9F",
+              "name": "main",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 34,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PnYIN",
+                  "name": "meta",
+                  "fill": "$color-text-secondary",
+                  "content": "02 / WRITING · 17 APR 2026 · AI SYSTEMS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "B6OeT",
+                  "name": "articleNote",
+                  "fill": "$color-text-secondary",
+                  "content": "NOTE / AI SYSTEMS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "SayNq",
+                  "name": "title",
+                  "fill": "#111111",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Designing AI systems\npeople can\nactually trust",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Geist",
+                  "fontSize": 64,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.01
+                },
+                {
+                  "type": "text",
+                  "id": "2UuNb",
+                  "name": "articleAnn",
+                  "fill": "$color-text-secondary",
+                  "content": "// trust is designed in the surrounding workflow",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "jcv8I",
+                  "name": "dek",
+                  "fill": "#111827",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "Reliability in AI products is not a model benchmark problem alone. It is a product systems problem involving confidence, legibility, intervention design, and operational fallback.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Newsreader",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "8uBCD",
+                  "name": "body",
+                  "width": 640,
+                  "layout": "vertical",
+                  "gap": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VhSch",
+                      "name": "p1",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "The common failure mode in AI product design is assuming that better output quality will naturally produce user trust. In practice, trust is built when the system makes its behavior interpretable under pressure. People need to know what the system is doing, how certain it is, and what happens when it is wrong.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hjIj9",
+                      "name": "c7",
+                      "width": 612,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0,
+                        "fill": "#FFFFFF"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        20,
+                        16,
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "y9gNr",
+                          "fill": "#9CA3AF",
+                          "width": 2,
+                          "height": "fill_container"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iT5yQ",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 548,
+                          "content": "A trustworthy AI system does not hide uncertainty. It gives uncertainty a usable interface.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SIDCi",
+                      "name": "p2",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "That means product leaders have to design more than prompts and outputs. They have to design review paths, confidence thresholds, visible failure states, and escalation logic. Once automation is attached to operational workflows, the surrounding control system matters as much as the model itself.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "VgKAD",
+                      "name": "bodyAnn",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": 584,
+                      "content": "// the control layer is part of the product",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SrIy4",
+                      "name": "c9",
+                      "width": 612,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0,
+                        "fill": "#FFFFFF"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        20,
+                        16,
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "oHpUP",
+                          "fill": "#9CA3AF",
+                          "width": 2,
+                          "height": "fill_container"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NdLA9",
+                          "fill": "#111827",
+                          "textGrowth": "fixed-width",
+                          "width": 548,
+                          "content": "The product decision is not whether automation is possible. It is whether the system still behaves well when reality gets noisy.",
+                          "lineHeight": 1.78,
+                          "fontFamily": "Newsreader",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SlxON",
+                      "name": "p3",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "This is where systems thinking becomes practical. Good teams map where confidence should be high, where review is mandatory, and where override paths need to remain human-first. They avoid binary thinking about 'manual' versus 'automated' work and instead design a gradient of assistance tied to risk.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LIKri",
+                      "name": "c8",
+                      "width": 612,
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0,
+                        "fill": "#FFFFFF"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        20,
+                        16,
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "g0yjG",
+                          "fill": "#9CA3AF",
+                          "width": 2,
+                          "height": "fill_container"
+                        },
+                        {
+                          "type": "text",
+                          "id": "6CxJQ",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 548,
+                          "content": "If the workflow breaks trust at the moment of exception, scale only amplifies the damage.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aXRZl",
+                      "name": "p4",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "The strategic implication is simple: leaders should treat trust as part of product architecture. It needs instrumentation, design ownership, and explicit tradeoff decisions. Otherwise, the system may appear efficient while quietly becoming brittle.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1wGj4",
+                  "name": "footer",
+                  "width": "fill_container",
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SPMir",
+                      "name": "footName",
+                      "fill": "$color-text-primary",
+                      "content": "Prateek Khare",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xRxdQ",
+                      "name": "footLinks",
+                      "fill": "$color-accent",
+                      "content": "Back to blog -> LinkedIn -> Email",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DbYmf",
+      "x": 7700,
+      "y": 0,
+      "name": "About",
+      "width": 1440,
+      "height": 1760,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": [
+        24,
+        64,
+        40,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "0vrXa",
+          "name": "nav",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "IZ1fT",
+              "name": "brand",
+              "fill": "$color-text-primary",
+              "content": "Prateek Khare",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "MpWB3",
+              "name": "links",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9yjic",
+                  "name": "homeLink",
+                  "fill": "$color-text-secondary",
+                  "content": "Home",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "LKJ2G",
+                  "name": "workLink",
+                  "fill": "$color-text-secondary",
+                  "content": "Work",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "pxS0M",
+                  "name": "blogLink",
+                  "fill": "$color-text-secondary",
+                  "content": "Blog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "text",
+                  "id": "oM8A6",
+                  "name": "aboutLink",
+                  "fill": "$color-text-secondary",
+                  "content": "About",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NrbJ8",
+          "name": "aboutShell",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "GWtjG",
+              "name": "aboutRail",
+              "width": 120,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aIqKD",
+                  "name": "aboutMark",
+                  "fill": "#6B7280",
+                  "content": "03 / ABOUT",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.048
+                },
+                {
+                  "type": "rectangle",
+                  "id": "Umkqc",
+                  "name": "aboutLine",
+                  "fill": "#4B5563",
+                  "width": 2,
+                  "height": 1620
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KEYPL",
+              "name": "main",
+              "width": 720,
+              "layout": "vertical",
+              "gap": 36,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bisEs",
+                  "name": "intro",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    0,
+                    0,
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rTLQZ",
+                      "name": "label",
+                      "fill": "$color-text-secondary",
+                      "content": "03 / ABOUT",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "DA9X3",
+                      "name": "title",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "I build systems\nfor real-world\ncomplexity",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Geist",
+                      "fontSize": 64,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.01
+                    },
+                    {
+                      "type": "text",
+                      "id": "RaDd3",
+                      "name": "sub",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "My work sits at the intersection of product judgment, engineering empathy, and operational design. I am most useful in spaces where the team needs structure without losing speed.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "pO4Oo",
+                      "name": "aboutAnn",
+                      "fill": "$color-text-secondary",
+                      "content": "// systems > features",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "So9f2",
+                      "name": "aboutSig",
+                      "fill": "#E5E7EB",
+                      "width": 180,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P7Ok9",
+                  "name": "sec1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 13,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BFamx",
+                      "name": "s1h",
+                      "fill": "$color-text-secondary",
+                      "content": "01 / WHO I AM",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "ecdCg",
+                      "name": "s1b",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "I am a product leader with a systems bias. I care about product strategy, but I care just as much about the operating mechanics that determine whether strategy survives contact with reality.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WEvD8",
+                  "name": "sec2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 15,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7RzWM",
+                      "name": "s2h",
+                      "fill": "$color-text-secondary",
+                      "content": "02 / JOURNEY",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "BrTjm",
+                      "name": "s2b",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "I started close to engineering, which gave me a respect for implementation detail and system constraints. Over time I moved deeper into product, then into AI-assisted systems, where the boundary between product design, operational design, and governance became impossible to ignore.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "84YSW",
+                  "name": "sec3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 13,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5h1AN",
+                      "name": "s3h",
+                      "fill": "$color-text-secondary",
+                      "content": "03 / HOW I THINK",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "WRhJS",
+                      "name": "s3b",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 620,
+                      "content": "I look for leverage in the system, not just the interface. I prefer product mechanisms over promises, operating clarity over process theatre, and metrics that sharpen judgment rather than replace it.",
+                      "lineHeight": 1.62,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mkC5q",
+                      "name": "thinkAnn",
+                      "fill": "#6B7280",
+                      "content": "// judgment before dashboard theater",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vfxas",
+                  "name": "sec4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 15,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NsGbh",
+                      "name": "s4h",
+                      "fill": "$color-text-secondary",
+                      "content": "04 / WHAT I'M EXPLORING",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.048
+                    },
+                    {
+                      "type": "text",
+                      "id": "6xGWp",
+                      "name": "s4b",
+                      "fill": "#111827",
+                      "textGrowth": "fixed-width",
+                      "width": 640,
+                      "content": "I am currently interested in AI product governance, workflow intelligence, and how teams design human oversight into systems before scale forces the issue. The throughline is simple: build products that behave well under pressure.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "BboSG",
+                  "name": "cta",
+                  "fill": "$color-accent",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "If you're building products where trust, complexity, and operating reality matter, let's talk. →",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Geist",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "eQh7t",
+                  "name": "footer",
+                  "width": "fill_container",
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dkBle",
+                      "name": "footName",
+                      "fill": "$color-text-primary",
+                      "content": "Prateek Khare",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sJ58S",
+                      "name": "footLinks",
+                      "fill": "$color-accent",
+                      "content": "LinkedIn -> Email -> Resume",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.048
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "variables": {
+    "body-size": {
+      "type": "number",
+      "value": 18
+    },
+    "color-bg": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "color-hover": {
+      "type": "color",
+      "value": "#1F1F1F"
+    },
+    "color-muted": {
+      "type": "color",
+      "value": "#6B7280"
+    },
+    "color-rule": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "color-text": {
+      "type": "color",
+      "value": "#111111"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Newsreader"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-meta": {
+      "type": "string",
+      "value": "IBM Plex Mono"
+    },
+    "hero-size": {
+      "type": "number",
+      "value": 64
+    },
+    "meta-size": {
+      "type": "number",
+      "value": 13
+    },
+    "section-size": {
+      "type": "number",
+      "value": 18
+    },
+    "space-1": {
+      "type": "number",
+      "value": 8
+    },
+    "space-2": {
+      "type": "number",
+      "value": 16
+    },
+    "space-3": {
+      "type": "number",
+      "value": 24
+    },
+    "space-4": {
+      "type": "number",
+      "value": 40
+    },
+    "space-5": {
+      "type": "number",
+      "value": 64
+    },
+    "space-6": {
+      "type": "number",
+      "value": 96
+    },
+    "color-accent": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "color-accent-soft": {
+      "type": "color",
+      "value": "#F3F4F6"
+    },
+    "color-spine": {
+      "type": "color",
+      "value": "#E3E6EA"
+    },
+    "color-panel": {
+      "type": "color",
+      "value": "#F9FAFB"
+    },
+    "color-panel-border": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "color-highlight": {
+      "type": "color",
+      "value": "#F3F4F6"
+    },
+    "color-bg-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "color-bg-secondary": {
+      "type": "color",
+      "value": "#F9FAFB"
+    },
+    "color-border-subtle": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "color-text-secondary": {
+      "type": "color",
+      "value": "#6B7280"
+    },
+    "color-text-primary": {
+      "type": "color",
+      "value": "#111111"
+    },
+    "color-focus-ring": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "color-highlight-accent-border": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "\\$color-border-subtle": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "\\$color-highlight-accent-border": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "\\$color-text-primary": {
+      "type": "color",
+      "value": "#111111"
+    },
+    "\\$color-text-secondary": {
+      "type": "color",
+      "value": "#6B7280"
+    }
+  }
+}
