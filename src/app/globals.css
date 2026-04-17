@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mdx-content h2 + p {
+  margin-top: 0;
+}
+
+.mdx-content p + p,
+.mdx-content blockquote + p,
+.mdx-content p + blockquote {
+  margin-top: 1.5rem;
+}
