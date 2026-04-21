@@ -1,19 +1,33 @@
+export const siteLinks = {
+  email: "mailto:hello@prateekkhare.dev",
+  linkedin: "https://www.linkedin.com/in/prateekhare/",
+  resume: "/prateek-khare-resume.pdf",
+  blog: "/blog",
+} as const;
+
+export const navigationLinks = [
+  { href: "/", label: "Home" },
+  { href: "/work", label: "Work" },
+  { href: siteLinks.blog, label: "Blog" },
+  { href: "/about", label: "About" },
+] as const;
+
 export const defaultFooterLinks = [
-  { href: "https://www.linkedin.com", label: "LinkedIn", external: true },
-  { href: "mailto:hello@prateekkhare.dev", label: "Email" },
-  { href: "/blog", label: "Blog" },
+  { href: siteLinks.linkedin, label: "LinkedIn", external: true },
+  { href: siteLinks.email, label: "Email" },
+  { href: siteLinks.blog, label: "Blog" },
 ];
 
 export const aboutFooterLinks = [
-  { href: "https://www.linkedin.com", label: "LinkedIn", external: true },
-  { href: "mailto:hello@prateekkhare.dev", label: "Email" },
-  { href: "#", label: "Resume" },
+  { href: siteLinks.linkedin, label: "LinkedIn", external: true },
+  { href: siteLinks.email, label: "Email" },
+  { href: siteLinks.resume, label: "Resume" },
 ];
 
 export const articleFooterLinks = [
-  { href: "/blog", label: "Back to blog" },
-  { href: "https://www.linkedin.com", label: "LinkedIn", external: true },
-  { href: "mailto:hello@prateekkhare.dev", label: "Email" },
+  { href: siteLinks.blog, label: "Back to blog" },
+  { href: siteLinks.linkedin, label: "LinkedIn", external: true },
+  { href: siteLinks.email, label: "Email" },
 ];
 
 export const homeMetrics = [
@@ -23,39 +37,31 @@ export const homeMetrics = [
   { value: "65%", label: "operational improvement" },
 ];
 
-export const homeWorkCards = [
+export const homeThinkingStatements = [
+  "Systems should get clearer as they scale, not more mysterious.",
+  "Trust is a workflow design problem before it becomes a model problem.",
+  "Good product judgment shows up in the operating mechanism, not the deck.",
+  "I look for leverage in constraints, handoffs, and failure paths.",
+];
+
+export const homeWorkPreview = [
   {
-    type: "featured" as const,
-    label: "FEATURED / SYSTEM",
+    label: "AI-assisted operations system",
     title: "Zigtex",
     description:
       "Designed the operating model and AI-assisted workflow layer for a high-volume field operations system where speed could not come at the cost of reliability.",
     meta: "10k+ actions/day · 70% efficiency gains · 1000+ users · trust-first automation",
-    annotation: "// not a demo system",
-    background: "#EEF3F8",
-    border: "#BFCBDA",
+    background: "#F3F6FA",
+    border: "#D7DFE8",
   },
   {
-    type: "standard" as const,
-    title: "OpsGraph",
-    description:
-      "Built a systems view for operational bottlenecks so teams could prioritize interventions by flow health instead of anecdote.",
-    meta: "decision instrumentation · service workflow redesign · cross-functional operating cadence",
-    background: "#F4F7FB",
-    border: "#D7DEE8",
-    widthClass: "md:w-[620px]",
-    leftRule: "#D1D5DB",
-  },
-  {
-    type: "standard" as const,
+    label: "Governance and oversight layer",
     title: "Trust Console",
     description:
       "Created the governance and review layer for AI-driven actions, making confidence, overrides, and failure states visible to operators and leadership.",
     meta: "human override paths · confidence thresholds · safer scale",
-    background: "#F6F8FC",
-    border: "#DCE3EC",
-    widthClass: "md:w-[620px]",
-    leftRule: "#D1D5DB",
+    background: "#F7F9FC",
+    border: "#E1E6EE",
   },
 ];
 
@@ -66,8 +72,8 @@ export const workCases = [
     description:
       "The problem was volume without coordination: operators were moving fast, but decisions fragmented under pressure. I led the product and systems design of an AI-assisted workflow layer that standardized actions, exposed edge cases, and made exception handling legible. The result was a daily operating system that processed 10k+ automated actions, improved efficiency by 70%, and kept trust intact as the workflow scaled.",
     meta: "scale / reliability / automation",
-    background: "#EEF2F7",
-    border: "#C9D2DC",
+    background: "#F4F6F9",
+    border: "#D7DEE6",
     gapClass: "gap-4",
   },
   {
@@ -77,8 +83,8 @@ export const workCases = [
       "Teams were reacting to isolated incidents instead of managing the system that produced them. I shaped a product layer that connected demand patterns, handoff delays, and operational interventions into one shared view, giving engineering and operations a common language for prioritization. That system shifted reviews from reactive debugging to deliberate flow design, materially improving response quality and operational focus.",
     meta: "diagnosis / planning / service flow",
     annotation: "// built to expose the system, not decorate it",
-    background: "#F7FAFD",
-    border: "#DFE5ED",
+    background: "#F7F9FC",
+    border: "#E1E6EE",
     gapClass: "gap-[14px]",
   },
   {
@@ -88,8 +94,8 @@ export const workCases = [
       "As AI actions grew more powerful, the real challenge was not generation but governance. I drove the design of a review and control layer that surfaced confidence, override paths, and failure modes in ways operators could act on quickly. The system reduced ambiguity around automation, improved operational confidence, and gave leadership a defensible model for scaling AI without hiding risk.",
     meta: "trust / override / auditability",
     annotation: "// reliability includes visible escape hatches",
-    background: "#F8FAFD",
-    border: "#E1E6EE",
+    background: "#F8FAFC",
+    border: "#E4E8EF",
     gapClass: "gap-[18px]",
   },
 ];

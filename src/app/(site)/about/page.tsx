@@ -1,14 +1,13 @@
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import Reveal from "@/components/Reveal";
-import { aboutFooterLinks } from "@/lib/site-content";
+import { aboutFooterLinks, siteLinks } from "@/lib/site-content";
 
 export default function About() {
   return (
     <PageShell railLabel="03 / ABOUT" railHeightClass="h-[1620px]" footerLinks={aboutFooterLinks}>
       <div className="flex flex-col gap-9">
         <Reveal className="flex flex-col gap-4 pb-5">
-          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">03 / ABOUT</p>
           <h1 className="font-display whitespace-pre-line text-[44px] font-bold leading-[1.05] tracking-[-0.01em] text-[#111111] md:text-[64px] md:leading-[1.1]">
             {"I build systems\nfor real-world\ncomplexity"}
           </h1>
@@ -49,7 +48,7 @@ export default function About() {
         </Reveal>
 
         <Reveal delay={375}>
-          <Link href="mailto:hello@prateekkhare.dev" className="link-slide font-display max-w-[720px] text-[20px] font-bold leading-[1.4] text-[#2563EB] transition-colors duration-150 hover:text-[#1D4ED8]">
+          <Link href={siteLinks.email} className="link-slide font-display max-w-[720px] text-[20px] font-bold leading-[1.4] text-[#2563EB] transition-colors duration-150 hover:text-[#1D4ED8]">
             If you&apos;re building products where trust, complexity, and operating reality matter, let&apos;s talk. →
           </Link>
         </Reveal>

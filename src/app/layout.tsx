@@ -5,17 +5,22 @@ import "./globals.css";
 const geistSans = Geist({
   variable: "--font-display",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
   variable: "--font-meta",
   subsets: ["latin"],
   weight: ["500", "600"],
+  display: "swap",
 });
 
 const newsreader = Newsreader({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
