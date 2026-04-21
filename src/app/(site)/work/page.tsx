@@ -8,7 +8,6 @@ export default function Work() {
     <PageShell railLabel="01 / WORK" railHeightClass="h-[1700px]" footerLinks={defaultFooterLinks}>
       <div className="flex flex-col gap-[38px]">
         <div className="flex flex-col gap-4">
-          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">01 / WORK</p>
           <h1 className="font-display whitespace-pre-line text-[44px] font-bold leading-[1.05] tracking-[-0.01em] text-[#111111] md:text-[64px] md:leading-[1.1]">
             {"Case work shaped by\noperating reality, not\nproduct theatre"}
           </h1>
@@ -22,23 +21,32 @@ export default function Work() {
         <div className="flex flex-col gap-[38px]">
           {workCases.map((item, index) => (
             <Reveal key={item.title} delay={index * 75}>
-            <Card
-              key={item.title}
-              background={item.background}
-              border={item.border}
-              widthClass={index === 0 ? "md:w-[640px]" : "md:w-[620px]"}
-              paddingClass="p-6"
-            >
-              <div className={item.gapClass}>
-                <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{item.label}</p>
-                <p className="font-display text-[20px] font-semibold leading-[1.4] text-[#111111]">{item.title}</p>
-                <p className="max-w-[640px] text-[18px] leading-[1.65] text-[#111827]">{item.description}</p>
-                <p className="max-w-[580px] font-meta text-[13px] font-medium leading-[1.5] text-[#6B7280]">{item.meta}</p>
-                {item.annotation ? (
-                  <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">{item.annotation}</p>
-                ) : null}
-              </div>
-            </Card>
+              <Card
+                background={item.background}
+                border={item.border}
+                widthClass="w-full"
+                paddingClass="p-6"
+              >
+                <div className={item.gapClass}>
+                  <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">
+                    {item.label}
+                  </p>
+                  <p className="font-display text-[20px] font-semibold leading-[1.4] text-[#111111]">
+                    {item.title}
+                  </p>
+                  <p className="max-w-[640px] text-[18px] leading-[1.65] text-[#111827]">
+                    {item.description}
+                  </p>
+                  <p className="max-w-[580px] font-meta text-[13px] font-medium leading-[1.5] text-[#6B7280]">
+                    {item.meta}
+                  </p>
+                  {item.annotation ? (
+                    <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">
+                      {item.annotation}
+                    </p>
+                  ) : null}
+                </div>
+              </Card>
             </Reveal>
           ))}
         </div>

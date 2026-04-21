@@ -12,6 +12,7 @@ type PageShellProps = {
   railLabel: string;
   railHeightClass?: string;
   footerLinks: FooterLink[];
+  mobileRailLabel?: string;
   children: ReactNode;
 };
 
@@ -19,6 +20,7 @@ export default function PageShell({
   railLabel,
   railHeightClass = "h-full",
   footerLinks,
+  mobileRailLabel,
   children,
 }: PageShellProps) {
   return (
@@ -34,7 +36,7 @@ export default function PageShell({
           </aside>
           <div className="flex w-full max-w-[720px] flex-1 flex-col">
             <p className="mb-6 font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280] md:hidden">
-              {railLabel}
+              {mobileRailLabel ?? railLabel}
             </p>
             {children}
             <div className="mt-auto">

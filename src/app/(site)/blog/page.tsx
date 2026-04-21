@@ -9,7 +9,6 @@ export default function Blog() {
     <PageShell railLabel="02 / WRITING" railHeightClass="h-[1500px]" footerLinks={defaultFooterLinks}>
       <div className="flex flex-col gap-[22px]">
         <div className="flex flex-col gap-4">
-          <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">02 / WRITING</p>
           <p className="font-meta text-[13px] font-medium tracking-[0.048em] text-[#6B7280]">NOTE / AI SYSTEMS</p>
           <h1 className="font-display whitespace-pre-line text-[44px] font-bold leading-[1.05] tracking-[-0.01em] text-[#111111] md:text-[64px] md:leading-[1.1]">
             {"Notes on AI systems,\noperating design, and\nproduct judgment"}
